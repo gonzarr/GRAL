@@ -118,7 +118,7 @@ def get_llm():
 
 if __name__ == "__main__":
     st.set_page_config(layout="wide")
-    st.title("🚀 Fast RAG-based QA with DeepSeek R1")
+    st.title("🚀 PDF analyzer")
     
     with st.sidebar:
         uploaded_file = st.file_uploader("Upload a PDF file", type="pdf")
